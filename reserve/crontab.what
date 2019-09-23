@@ -1,0 +1,1 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin /usr/bin/flock -n /maxrelax/session.lockfile python3 /maxrelax/reserve.py --config /maxrelax/config.yml  > /proc/1/fd/1 2>/proc/1/fd/2

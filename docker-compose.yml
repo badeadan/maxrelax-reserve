@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  maxrelax:
+    build:
+      context: ./reserve
+    volumes:
+      - ./config.yml:/maxrelax/config.yml:ro

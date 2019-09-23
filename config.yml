@@ -1,0 +1,6 @@
+crontab: '1 8 * * 4'
+credentials:
+  user: 'user'
+  password: 'password'
+reservations:
+  John Doe: '12:00'
